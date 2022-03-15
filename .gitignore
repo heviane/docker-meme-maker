@@ -1,3 +1,11 @@
+
+img/
+**/img
+
+*.jpg
+*.jpeg
+*.png
+
 # Logs
 logs
 *.log

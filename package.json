@@ -1,5 +1,5 @@
 {
-  "name": "recorded",
+  "name": "meme-maker",
   "version": "1.0.0",
   "description": "Meme generator with Docker and JavaScript",
   "main": "index.js",
