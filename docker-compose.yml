@@ -1,8 +1,18 @@
+## Versão do docker-compose
 version: '2.1'
-services:
+
+## Lista dos serviços
+services: 
+  ## Serviço meme-maker
   meme-maker:
+    ## Nome da imagem
     image: meme-maker
+    ## Onde está o dockerfile => mesmo diretório (apenas ponto)
     build: .
+    ## O que fazer para existir o live-reload
+    ## Para que ele entenda que somente o .js mudou
+    ## E não ficar olhando para a node_modules
+    ## SOLUÇÃO: Isolar a node_modules em outro volume
     volumes:
       - .:/meme-generator
       - node_modules:/meme-generator/node_modules

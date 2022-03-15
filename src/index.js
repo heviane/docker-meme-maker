@@ -3,8 +3,8 @@ import memeMaker from '@erickwendel/meme-maker'
 const options = {
   image: './img/sorry.jpg',         // Required
   outfile: './img/spiderman-meme.png',  // Required
-  topText: 'DESCULPE TIO BEN',            // Required
-  bottomText: 'NAO CONSEGUI RODAR O LIVE-RELOAD',           // Optional
+  topText: 'DESCULPE TIO BEN...',            // Required
+  bottomText: 'TESTING...',           // Optional
 }
 
 memeMaker(options).then(_ => {

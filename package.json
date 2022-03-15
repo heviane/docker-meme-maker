@@ -1,7 +1,7 @@
 {
   "name": "recorded",
   "version": "1.0.0",
-  "description": "",
+  "description": "Meme generator with Docker and JavaScript",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -13,7 +13,9 @@
   "author": "erickwendel",
   "license": "ISC",
   "dependencies": {
-    "@erickwendel/meme-maker": "^2.3.1"
+    "@erickwendel/meme-maker": "^2.3.1",
+    "install": "^0.13.0",
+    "npm": "^8.5.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
