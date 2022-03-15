@@ -10,15 +10,15 @@ Meme generator with Docker and JavaScript 🚀
 Biblioteca multiplataforma para edição de imagens.
 - [npmjs.com/package/@erickwendel/meme-maker](https://www.npmjs.com/package/@erickwendel/meme-maker)
 
-**Graphicsmagick** e dependências instaladas no container via Docker.
+**Graphicsmagick** e dependências devem ser instaladas no container via Docker.
 
 ## Docker
 
-1. Defina o ambiente da app com um [Dockerfile](https://docs.docker.com/engine/reference/builder) para que ele possa ser reproduzido em qualquer lugar.
+1. Defina o ambiente com um [Dockerfile](https://docs.docker.com/engine/reference/builder) para que ele possa ser reproduzido em qualquer lugar.
 
-2. Defina os serviços que compõem o app [docker-compose.yml](https://docs.docker.com/compose) para que possam ser executados juntos em um ambiente isolado.
+2. Defina os serviços com um [docker-compose.yml](https://docs.docker.com/compose) para que possam ser executados juntos em um ambiente isolado.
 
-3. **volume**: Configuração para separar as pastas do código js da pasta node_modules, para que o **nodemon** consiga fazer **live-reload** funcione corretamente, pegando somente as modificações de código.
+3. **volume**: Configuração para separar as pastas do código js da pasta node_modules, para que o **nodemon** consiga fazer **live-reload** rodar corretamente, pegando somente as modificações de código.
 
 4. Execute o comando **docker compose up** para inicializar a app.
 Na primeira execução use o argumento **--build** para a construção do ambiente. Também pode executar este comando usando o binário docker-compose.
