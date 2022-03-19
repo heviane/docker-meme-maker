@@ -1,4 +1,4 @@
-# docker-meme-maker 🥇
+# Introduction to docker 🥇
 
 Meme generator with Docker and JavaScript 🚀
 
