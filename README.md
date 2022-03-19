@@ -88,6 +88,5 @@ Estamos usando o **nodemon**, então a cada modificação salva no arquivo "inde
 
 ## To Research ⁉️
 
-- Node.js Streams???
-- Na [#SemanaJS Expert](https://javascriptexpert.com.br/) será realizado um projeto que demanda **processamento de audio em tempo real**, por isso será necessário usar um **binário do SO**, para por exemplo: juntar audios, ajustar volume, adicionar efeitos, etc. A utilização do docker é importante, pois os alunos não tem todos o meio ambiente.
-- Docker, multi stage building?? Diminuir o tamanho da imagem.
+- Node Streams
+- Docker, multi stage building? Diminuir o tamanho da imagem.
